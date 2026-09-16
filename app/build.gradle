@@ -1,13 +1,15 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 34
+    namespace 'com.todaysoft.ymshin.numbercounter'
+
+    compileSdkVersion 36
     defaultConfig {
         applicationId "com.todaysoft.ymshin.numbercounter"
         minSdkVersion 21
-        targetSdkVersion 34
-        versionCode 31
-        versionName "3.1"
+        targetSdkVersion 36
+        versionCode 33
+        versionName "3.3"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
     buildTypes {

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/counter_name"
+            android:textSize="13sp"
+            android:textColor="#000000"
+            />
+        <EditText
+            android:id="@+id/etCountNm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/counter_value"
+            android:textSize="13sp"
+            android:textColor="#000000"
+            />
+        <EditText
+            android:id="@+id/etCountVal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:digits="0123456789"
+            android:inputType="numberDecimal"
+            />
+    </LinearLayout>
+</RelativeLayout>
